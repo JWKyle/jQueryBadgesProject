@@ -4,7 +4,7 @@ $(function() {
   url: 'https://www.codeschool.com/users/jwkyle.json',
   dataType: 'jsonp',
   success: function(response) {
-    console.log('Success!', response.courses.in_progress);
+    // console.log('Success!', response.courses.in_progress);
     completedCourses(response.courses.completed);
     progressCourses(response.courses.in_progress);
   }
@@ -39,10 +39,10 @@ function completedCourses(courses) {
 }
 function progressCourses(courses) {
 
-  var $badges = $('#badges');
+  var $progress = $('#progress');
 
   courses.forEach(function(course) {
-    // console.log(course);
+    console.log(course);
 
     var $course = $('<div />', {
       'class': 'course'
