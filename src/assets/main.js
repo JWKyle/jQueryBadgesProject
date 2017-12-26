@@ -42,11 +42,11 @@ function progressCourses(courses) {
   var $progress = $('#progress');
 
   courses.forEach(function(course) {
-    console.log(course);
+    // console.log(course);
 
     var $course = $('<div />', {
       'class': 'course'
-    }).appendTo($badges);
+    }).appendTo($progress);
 
     $('<h3 />', {
       text: course.title
