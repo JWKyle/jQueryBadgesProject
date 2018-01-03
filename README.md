@@ -1,6 +1,6 @@
 # Use jQuery to Fetch and Show Code School Badges Using Ajax
 
-A personal web page that displays the courses Ive completed on Code School by pulling data from the Code School website.
+A personal web page that displays the courses I've completed on Code School by pulling data from the Code School website.
 
 ![Poster](http://courseware.codeschool.com.s3.amazonaws.com/projects/use-jquery-to-fetch-and-show-code-school-badges-using-ajax.png)
 # The following is from the Readme of the Forked Repo
